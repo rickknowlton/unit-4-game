@@ -1,0 +1,99 @@
+/*   Body/Default Attributes   */
+body {
+    padding-top: 54px;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../images/bg-4.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*   Media Queries   */
+@media (max-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+
+    .display-3 {
+        font-size: 45px;
+    }
+
+    h1, h2 {
+        font-size: 30px;
+    }
+
+    h3  {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+}
+
+
+/*   Element Attributes   */
+h3 {
+}
+
+h4 {
+    font-size: 25px;
+}
+
+
+/*   Class Attributes   */
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.card {
+    height: 100%;
+
+}
+
+p.lettersGuessed {
+    text-align: left;
+}
+
+.letters {
+    letter-spacing: 7px;
+}
+
+.img {
+  	height: 10px;
+
+}
+
+.display-3, .greeting-title {
+    color: rgb(228, 94, 233);
+}
+
+/*   ID Attributes   */
+#win-card,
+#loss-card {
+    opacity: 0.9;
+    border-color: rgba(255, 44, 255, 0.582);
+    border-width: 2px;
+}
+
+#win-message,
+#loss-message {
+    font-family: 'Press Start 2P', cursive;
+    color: #0014c9;
+
+}
+
+#sprite {
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index: 100;
+}
